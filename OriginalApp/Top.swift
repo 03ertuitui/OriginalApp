@@ -7,11 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class Top: UIViewController {
+    
+    @IBOutlet var b:UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        b.layer.cornerRadius = 40
+        
+        
     }
 
 
