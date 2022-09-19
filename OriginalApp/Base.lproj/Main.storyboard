@@ -17,8 +17,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="レッサーパンダ顔診断" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4y-c1-8UZ">
-                                <rect key="frame" x="110" y="119" width="600" height="94.5"/>
-                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="60"/>
+                                <rect key="frame" x="111" y="119" width="598.5" height="60"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="60"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -39,21 +39,21 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maruko" translatesAutoresizingMaskIntoConstraints="NO" id="mN7-VD-tbs">
-                                <rect key="frame" x="160" y="349.5" width="240" height="240"/>
+                                <rect key="frame" x="160" y="315" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="2MI-T8-FAL"/>
                                     <constraint firstAttribute="height" constant="240" id="2bU-UA-pwI"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zun" translatesAutoresizingMaskIntoConstraints="NO" id="z4Z-qE-ukF">
-                                <rect key="frame" x="420" y="349.5" width="240" height="240"/>
+                                <rect key="frame" x="420" y="315" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="ICY-LV-guh"/>
                                     <constraint firstAttribute="height" constant="240" id="kAz-X5-gih"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rei" translatesAutoresizingMaskIntoConstraints="NO" id="97l-6e-Efr">
-                                <rect key="frame" x="160" y="606" width="240" height="240"/>
+                                <rect key="frame" x="160" y="571.5" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="240" id="c9a-fj-TE6"/>
                                     <constraint firstAttribute="height" constant="240" id="ccY-At-2y1"/>
@@ -61,7 +61,7 @@
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reika" translatesAutoresizingMaskIntoConstraints="NO" id="aLM-1f-y0t">
-                                <rect key="frame" x="420" y="606" width="240" height="240"/>
+                                <rect key="frame" x="420" y="571.5" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="N1C-gE-UdR"/>
                                     <constraint firstAttribute="width" constant="240" id="ZXr-bB-1Qr"/>
@@ -133,10 +133,19 @@
                                     <segue destination="S2l-Ib-dgR" kind="show" id="sLF-io-09V"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Q1.毛並み" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Si4-JS-WNN">
+                                <rect key="frame" x="191" y="106" width="438" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="f1g-5f-1zQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <color key="tintColor" red="0.93333339689999995" green="0.69019609689999994" blue="0.35686278339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Si4-JS-WNN" firstAttribute="centerX" secondItem="Pfn-ba-rvp" secondAttribute="centerX" id="8FE-7K-JzT"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="21G-Pe-Jpt"/>
                 </viewController>
@@ -243,21 +252,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="今から質問します" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSD-ht-SUk">
-                                <rect key="frame" x="249" y="372" width="322" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pOu-qo-Wi5">
                                 <rect key="frame" x="0.0" y="15" width="820" height="50"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjJ-oq-PoX">
-                                <rect key="frame" x="224" y="914" width="373" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjJ-oq-PoX">
+                                <rect key="frame" x="210" y="925" width="400" height="80"/>
                                 <color key="backgroundColor" red="0.93333339689999995" green="0.69019609689999994" blue="0.35686278339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="DQ3-J7-tXe"/>
+                                    <constraint firstAttribute="height" constant="80" id="wWL-iF-9QW"/>
+                                </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="GO">
@@ -267,13 +272,30 @@
                                     <segue destination="hqb-cY-5vX" kind="show" id="su8-Bx-Dwl"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSD-ht-SUk">
+                                <rect key="frame" x="8" y="357" width="805" height="368"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96862745289999996" green="0.8156862855" blue="0.61568629740000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">今から
+レッサーパンダのビジュアルに関する質問を
+いくつか出します！
+自分の好みの方を選んでね！！</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sJ1-fu-zRg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sJ1-fu-zRg" firstAttribute="bottom" secondItem="bjJ-oq-PoX" secondAttribute="bottom" constant="25" id="cE5-mN-O5o"/>
+                            <constraint firstItem="bjJ-oq-PoX" firstAttribute="centerX" secondItem="n04-ih-gaZ" secondAttribute="centerX" id="tkP-PU-QXV"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="iii" largeTitleDisplayMode="always" id="AYP-lp-JbP"/>
                     <connections>
                         <outlet property="gobutton" destination="bjJ-oq-PoX" id="QQZ-00-1KS"/>
+                        <outlet property="ruleLabel" destination="uSD-ht-SUk" id="tmf-jd-aoD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OPt-Vf-C60" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -323,6 +345,13 @@
                                     <segue destination="5M6-yt-ske" kind="show" id="W0e-pd-Z0K"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Q1.毛並み" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpY-hG-0ub">
+                                <rect key="frame" x="191" y="130" width="438" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GRa-0Y-I3x"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -343,6 +372,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="Iit-8S-Cio" kind="relationship" relationship="viewControllers" id="dAp-Uy-qZx"/>

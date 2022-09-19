@@ -10,13 +10,15 @@ import UIKit
 class rule: UIViewController {
 
     @IBOutlet var gobutton: UIButton!
+    @IBOutlet var ruleLabel: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
         gobutton.layer.cornerRadius = 40
-        
+        ruleLabel.layer.cornerRadius = 100
     }
     
 
