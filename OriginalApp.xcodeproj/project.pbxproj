@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCBE077428D8460900EE0545 /* 07にくまるフォント.otf in Resources */ = {isa = PBXBuildFile; fileRef = CCBE077328D8460900EE0545 /* 07にくまるフォント.otf */; };
+		CCBE077628D847B400EE0545 /* tttttabbbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBE077528D847B400EE0545 /* tttttabbbViewController.swift */; };
 		CCC0E99F28D0F38B00A5400E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0E99E28D0F38B00A5400E /* AppDelegate.swift */; };
 		CCC0E9A128D0F38B00A5400E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0E9A028D0F38B00A5400E /* SceneDelegate.swift */; };
 		CCC0E9A328D0F38B00A5400E /* Top.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0E9A228D0F38B00A5400E /* Top.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CCBE077328D8460900EE0545 /* 07にくまるフォント.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "07にくまるフォント.otf"; sourceTree = "<group>"; };
+		CCBE077528D847B400EE0545 /* tttttabbbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tttttabbbViewController.swift; sourceTree = "<group>"; };
 		CCC0E99B28D0F38B00A5400E /* OriginalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriginalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC0E99E28D0F38B00A5400E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC0E9A028D0F38B00A5400E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CCBE077228D8423300EE0545 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE077328D8460900EE0545 /* 07にくまるフォント.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		CCC0E99228D0F38B00A5400E = {
 			isa = PBXGroup;
 			children = (
@@ -74,8 +86,10 @@
 		CCC0E99D28D0F38B00A5400E /* OriginalApp */ = {
 			isa = PBXGroup;
 			children = (
+				CCBE077228D8423300EE0545 /* fonts */,
 				CCC0E99E28D0F38B00A5400E /* AppDelegate.swift */,
 				CCC0E9A028D0F38B00A5400E /* SceneDelegate.swift */,
+				CCBE077528D847B400EE0545 /* tttttabbbViewController.swift */,
 				CCD0DE3B28D5A17200AEE9CD /* myUINavigationcontroller.swift */,
 				CCC0E9A228D0F38B00A5400E /* Top.swift */,
 				CCD0DE2F28D45E9C00AEE9CD /* Rule.swift */,
@@ -157,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCBE077428D8460900EE0545 /* 07にくまるフォント.otf in Resources */,
 				CCC0E9AB28D0F38F00A5400E /* LaunchScreen.storyboard in Resources */,
 				CCC0E9A828D0F38F00A5400E /* Assets.xcassets in Resources */,
 				CCC0E9A628D0F38B00A5400E /* Main.storyboard in Resources */,
@@ -170,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCBE077628D847B400EE0545 /* tttttabbbViewController.swift in Sources */,
 				CCC0E9A328D0F38B00A5400E /* Top.swift in Sources */,
 				CCD0DE3028D45E9C00AEE9CD /* Rule.swift in Sources */,
 				CCC0E99F28D0F38B00A5400E /* AppDelegate.swift in Sources */,

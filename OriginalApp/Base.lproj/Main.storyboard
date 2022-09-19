@@ -17,8 +17,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="レッサーパンダ顔診断" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4y-c1-8UZ">
-                                <rect key="frame" x="210" y="124" width="400" height="47"/>
-                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="40"/>
+                                <rect key="frame" x="110" y="119" width="600" height="94.5"/>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="60"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -38,31 +38,33 @@
                                     <segue destination="z7S-FY-Qvb" kind="show" id="chb-ho-wzA"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="zun" translatesAutoresizingMaskIntoConstraints="NO" id="z4Z-qE-ukF">
-                                <rect key="frame" x="300" y="425" width="240" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="0AU-DO-FV2"/>
-                                    <constraint firstAttribute="height" constant="240" id="NBk-48-w8O"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="240" id="fbp-1b-FVM"/>
-                                </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="97l-6e-Efr">
-                                <rect key="frame" x="167" y="580" width="240" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="240" id="ccY-At-2y1"/>
-                                </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aLM-1f-y0t">
-                                <rect key="frame" x="429" y="580" width="240" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="240" id="N1C-gE-UdR"/>
-                                </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="maruko" translatesAutoresizingMaskIntoConstraints="NO" id="mN7-VD-tbs">
-                                <rect key="frame" x="167" y="307" width="240" height="246"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maruko" translatesAutoresizingMaskIntoConstraints="NO" id="mN7-VD-tbs">
+                                <rect key="frame" x="160" y="349.5" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="2MI-T8-FAL"/>
                                     <constraint firstAttribute="height" constant="240" id="2bU-UA-pwI"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zun" translatesAutoresizingMaskIntoConstraints="NO" id="z4Z-qE-ukF">
+                                <rect key="frame" x="420" y="349.5" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="ICY-LV-guh"/>
+                                    <constraint firstAttribute="height" constant="240" id="kAz-X5-gih"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rei" translatesAutoresizingMaskIntoConstraints="NO" id="97l-6e-Efr">
+                                <rect key="frame" x="160" y="606" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="240" id="c9a-fj-TE6"/>
+                                    <constraint firstAttribute="height" constant="240" id="ccY-At-2y1"/>
+                                    <constraint firstAttribute="width" constant="240" id="q9U-Bw-y87"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reika" translatesAutoresizingMaskIntoConstraints="NO" id="aLM-1f-y0t">
+                                <rect key="frame" x="420" y="606" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="N1C-gE-UdR"/>
+                                    <constraint firstAttribute="width" constant="240" id="ZXr-bB-1Qr"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -70,14 +72,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <color key="tintColor" red="0.93333339689999995" green="0.69019609689999994" blue="0.35686278339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="y4y-c1-8UZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2dN-hP-InI"/>
-                            <constraint firstItem="aLM-1f-y0t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-10" id="8la-2V-WbG"/>
+                            <constraint firstItem="y4y-c1-8UZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="5bB-ux-J8v"/>
+                            <constraint firstItem="97l-6e-Efr" firstAttribute="top" secondItem="mN7-VD-tbs" secondAttribute="bottom" constant="16.5" id="E9T-Yw-4D5"/>
+                            <constraint firstItem="y4y-c1-8UZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Eqg-gp-4NK"/>
+                            <constraint firstItem="z4Z-qE-ukF" firstAttribute="top" secondItem="y4y-c1-8UZ" secondAttribute="bottom" constant="136" id="KCR-8m-f45"/>
                             <constraint firstItem="LuZ-5P-ngZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OZr-ru-JGM"/>
-                            <constraint firstItem="97l-6e-Efr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="10" id="dIa-WD-cH9"/>
-                            <constraint firstItem="z4Z-qE-ukF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="10" id="nug-7d-UVw"/>
-                            <constraint firstItem="mN7-VD-tbs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="10" id="oVl-qd-qlE"/>
-                            <constraint firstItem="LuZ-5P-ngZ" firstAttribute="top" secondItem="y4y-c1-8UZ" secondAttribute="bottom" constant="839" id="qyo-DN-gCt"/>
+                            <constraint firstItem="97l-6e-Efr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-130" id="dgk-JS-2eM"/>
+                            <constraint firstItem="aLM-1f-y0t" firstAttribute="top" secondItem="z4Z-qE-ukF" secondAttribute="bottom" constant="16.5" id="nAt-Qk-dOe"/>
+                            <constraint firstItem="mN7-VD-tbs" firstAttribute="top" secondItem="y4y-c1-8UZ" secondAttribute="bottom" constant="136" id="nYV-7x-QzO"/>
+                            <constraint firstItem="mN7-VD-tbs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-130" id="pyT-D6-TrF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LuZ-5P-ngZ" secondAttribute="bottom" constant="25" id="sp7-GO-HPU"/>
+                            <constraint firstItem="z4Z-qE-ukF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="130" id="unb-2p-sJb"/>
+                            <constraint firstItem="aLM-1f-y0t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="130" id="x69-cn-DfL"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
@@ -328,10 +334,10 @@
             </objects>
             <point key="canvasLocation" x="4383.6585365853662" y="93.559322033898312"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tttttabbb View Controller-->
         <scene sceneID="BuX-hy-dEh">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Aw2-2N-BrV" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Aw2-2N-BrV" customClass="tttttabbbViewController" customModule="OriginalApp" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4p5-be-UvR">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -347,11 +353,11 @@
             </objects>
             <point key="canvasLocation" x="1532.9268292682927" y="93.559322033898312"/>
         </scene>
-        <!--Item-->
+        <!--TOP-->
         <scene sceneID="1SY-l5-Liw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Iit-8S-Cio" customClass="myUINavigationcontroller" customModule="OriginalApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="0VO-nS-g9f"/>
+                    <tabBarItem key="tabBarItem" title="TOP" image="1x" selectedImage="1x" id="0VO-nS-g9f"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="K2Y-IF-37Z">
                         <rect key="frame" x="0.0" y="24" width="820" height="50"/>
@@ -372,8 +378,11 @@
         <segue reference="Ylk-TY-epa"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="1x" width="30" height="30"/>
         <image name="GO_1" width="284" height="119"/>
         <image name="maruko" width="873" height="663"/>
+        <image name="rei" width="880" height="587"/>
+        <image name="reika" width="640" height="426"/>
         <image name="zun" width="880" height="587"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
