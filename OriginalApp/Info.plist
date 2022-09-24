@@ -21,5 +21,22 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict/>
+		<dict/>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>07にくまるフォント.ttf</string>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string></string>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict/>
+	</array>
 </dict>
 </plist>

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		CCBE077428D8460900EE0545 /* 07にくまるフォント.otf in Resources */ = {isa = PBXBuildFile; fileRef = CCBE077328D8460900EE0545 /* 07にくまるフォント.otf */; };
 		CCBE077628D847B400EE0545 /* tttttabbbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBE077528D847B400EE0545 /* tttttabbbViewController.swift */; };
+		CCBE077828D9DA8800EE0545 /* 07にくまるフォント.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCBE077728D9DA8800EE0545 /* 07にくまるフォント.ttf */; };
+		CCBE077A28DF380300EE0545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBE077928DF380300EE0545 /* Assets.xcassets */; };
+		CCBE077E28DF393E00EE0545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBE077D28DF393E00EE0545 /* Assets.xcassets */; };
 		CCC0E99F28D0F38B00A5400E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0E99E28D0F38B00A5400E /* AppDelegate.swift */; };
 		CCC0E9A128D0F38B00A5400E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0E9A028D0F38B00A5400E /* SceneDelegate.swift */; };
 		CCC0E9A328D0F38B00A5400E /* Top.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC0E9A228D0F38B00A5400E /* Top.swift */; };
@@ -29,6 +32,9 @@
 /* Begin PBXFileReference section */
 		CCBE077328D8460900EE0545 /* 07にくまるフォント.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "07にくまるフォント.otf"; sourceTree = "<group>"; };
 		CCBE077528D847B400EE0545 /* tttttabbbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tttttabbbViewController.swift; sourceTree = "<group>"; };
+		CCBE077728D9DA8800EE0545 /* 07にくまるフォント.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "07にくまるフォント.ttf"; sourceTree = "<group>"; };
+		CCBE077928DF380300EE0545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Original/material/AppIcons/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		CCBE077D28DF393E00EE0545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Original/material/AppIcons (1)/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		CCC0E99B28D0F38B00A5400E /* OriginalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriginalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC0E99E28D0F38B00A5400E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC0E9A028D0F38B00A5400E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +68,9 @@
 		CCBE077228D8423300EE0545 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
+				CCBE077928DF380300EE0545 /* Assets.xcassets */,
 				CCBE077328D8460900EE0545 /* 07にくまるフォント.otf */,
+				CCBE077728D9DA8800EE0545 /* 07にくまるフォント.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -100,6 +108,7 @@
 				CCC0E9AC28D0F38F00A5400E /* Info.plist */,
 				CCC0E9A428D0F38B00A5400E /* Main.storyboard */,
 				CCC0E9A728D0F38F00A5400E /* Assets.xcassets */,
+				CCBE077D28DF393E00EE0545 /* Assets.xcassets */,
 				CCC0E9A928D0F38F00A5400E /* LaunchScreen.storyboard */,
 				CCD0DE4228D5E18800AEE9CD /* Memo.swift */,
 			);
@@ -172,8 +181,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCBE077428D8460900EE0545 /* 07にくまるフォント.otf in Resources */,
+				CCBE077828D9DA8800EE0545 /* 07にくまるフォント.ttf in Resources */,
 				CCC0E9AB28D0F38F00A5400E /* LaunchScreen.storyboard in Resources */,
 				CCC0E9A828D0F38F00A5400E /* Assets.xcassets in Resources */,
+				CCBE077E28DF393E00EE0545 /* Assets.xcassets in Resources */,
+				CCBE077A28DF380300EE0545 /* Assets.xcassets in Resources */,
 				CCC0E9A628D0F38B00A5400E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,7 +354,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 32NRY2796M;
+				DEVELOPMENT_TEAM = Q7F86WW96P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OriginalApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -370,7 +382,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 32NRY2796M;
+				DEVELOPMENT_TEAM = Q7F86WW96P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OriginalApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

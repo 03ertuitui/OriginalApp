@@ -9,6 +9,8 @@ import UIKit
 //import RealmSwift
 
 class Q2check: UIViewController {
+    @IBOutlet var Q2button01: UIButton!
+    @IBOutlet var Q2button02: UIButton!
     
     var Q2 = 0
     var Q1: Int!
@@ -17,6 +19,8 @@ class Q2check: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        Q2button01.layer.cornerRadius = 50
+        Q2button02.layer.cornerRadius = 50
         // Do any additional setup after loading the view.
         
         //let memo: Memo? = read()

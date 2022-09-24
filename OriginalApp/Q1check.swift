@@ -15,11 +15,14 @@ class Q1check: UIViewController {
     
     var Q1 = 0
     
+    @IBOutlet var Q1button1: UIButton!
+    @IBOutlet var Q1button2: UIButton!
     //let realm = try! Realm()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        Q1button1.layer.cornerRadius = 50
+        Q1button2.layer.cornerRadius = 50
         // Do any additional setup after loading the view.
         
         //let memo: Memo? = read()
