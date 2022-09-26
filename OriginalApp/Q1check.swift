@@ -18,6 +18,7 @@ class Q1check: UIViewController {
     @IBOutlet var Q1button1: UIButton!
     @IBOutlet var Q1button2: UIButton!
     //let realm = try! Realm()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
