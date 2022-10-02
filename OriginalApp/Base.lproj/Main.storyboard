@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Aw2-2N-BrV">
-    <device id="retina5_5" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Aw2-2N-BrV">
+    <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,15 +12,15 @@
         <!--TOP-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="TOP" customClass="Top" customModule="レッサーハ_ンタ_と相性診断" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="TOP" customClass="Top" customModule="checkwlesser" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="109" translatesAutoresizingMaskIntoConstraints="NO" id="zTN-NL-0kF">
-                                <rect key="frame" x="7" y="25" width="400" height="686"/>
+                                <rect key="frame" x="210" y="247" width="400" height="686"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="レッサーパンダ顔診断" textAlignment="center" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="y4y-c1-8UZ">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="レッサーパンダと相性診断" textAlignment="center" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="y4y-c1-8UZ">
                                         <rect key="frame" x="0.0" y="0.0" width="400" height="60"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="60"/>
@@ -113,13 +114,13 @@
         <!--第二問-->
         <scene sceneID="aGJ-Bh-zcs">
             <objects>
-                <viewController id="5M6-yt-ske" userLabel="第二問" customClass="Q2check" customModule="レッサーハ_ンタ_と相性診断" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5M6-yt-ske" userLabel="第二問" customClass="Q2check" customModule="checkwlesser" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pfn-ba-rvp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="ECr-tr-J8R">
-                                <rect key="frame" x="7" y="27" width="400" height="682"/>
+                                <rect key="frame" x="210" y="249" width="400" height="682"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q2.顔の形" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Si4-JS-WNN">
                                         <rect key="frame" x="81" y="0.0" width="238" height="50"/>
@@ -191,21 +192,21 @@
         <!--RESULT-->
         <scene sceneID="sFx-yE-FAb">
             <objects>
-                <viewController storyboardIdentifier="RESULT" title="RESULT" id="S2l-Ib-dgR" userLabel="RESULT" customClass="RESULT" customModule="レッサーハ_ンタ_と相性診断" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RESULT" title="RESULT" id="S2l-Ib-dgR" userLabel="RESULT" customClass="RESULT" customModule="checkwlesser" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zyw-Qa-pct">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="TUK-jn-K8Q">
-                                <rect key="frame" x="7" y="110" width="400" height="516"/>
+                                <rect key="frame" x="210" y="332" width="400" height="516"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="あなたにぴったりなのは..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncV-eJ-aSj">
-                                        <rect key="frame" x="23" y="0.0" width="354.33333333333331" height="36"/>
+                                        <rect key="frame" x="23" y="0.0" width="354.5" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GO_1" translatesAutoresizingMaskIntoConstraints="NO" id="zel-Gs-qAf">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GO_1" translatesAutoresizingMaskIntoConstraints="NO" id="zel-Gs-qAf">
                                         <rect key="frame" x="0.0" y="51" width="400" height="400"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="400" id="Xtl-LK-PHk"/>
@@ -241,9 +242,9 @@
         <!--一覧表-->
         <scene sceneID="Kya-Xg-PCz">
             <objects>
-                <viewController id="6GO-Gf-zdq" customClass="List" customModule="レッサーハ_ンタ_と相性診断" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6GO-Gf-zdq" customClass="List" customModule="checkwlesser" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dy1-92-lG7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="9Bt-Sz-20X">
@@ -252,7 +253,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" showsReorderControl="YES" indentationLevel="1" indentationWidth="10" reuseIdentifier="Cell" rowHeight="146" id="iED-Dh-uKp">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="820" height="146"/>
+                                        <rect key="frame" x="0.0" y="50" width="820" height="146"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iED-Dh-uKp" id="hoa-wM-GiY">
                                             <rect key="frame" x="0.0" y="0.0" width="820" height="146"/>
@@ -282,13 +283,13 @@
         <!--ルール説明-->
         <scene sceneID="URi-oZ-ZgZ">
             <objects>
-                <viewController id="z7S-FY-Qvb" userLabel="ルール説明" customClass="rule" customModule="レッサーハ_ンタ_と相性診断" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="z7S-FY-Qvb" userLabel="ルール説明" customClass="rule" customModule="checkwlesser" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n04-ih-gaZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="130" translatesAutoresizingMaskIntoConstraints="NO" id="Onv-Gz-QFp">
-                                <rect key="frame" x="7" y="19.666666666666686" width="400" height="696.66666666666652"/>
+                                <rect key="frame" x="210" y="242" width="400" height="696.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ルール説明！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AA3-bt-IXI">
                                         <rect key="frame" x="0.0" y="0.0" width="400" height="50"/>
@@ -297,7 +298,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uSD-ht-SUk">
-                                        <rect key="frame" x="0.0" y="180.00000000000003" width="400" height="286.66666666666674"/>
+                                        <rect key="frame" x="0.0" y="180" width="400" height="286.5"/>
                                         <color key="backgroundColor" red="0.96862745289999996" green="0.8156862855" blue="0.61568629740000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <string key="text">今から
 レッサーパンダの見た目に関する質問を
@@ -308,7 +309,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjJ-oq-PoX">
-                                        <rect key="frame" x="0.0" y="596.66666666666674" width="400" height="100"/>
+                                        <rect key="frame" x="0.0" y="596.5" width="400" height="100"/>
                                         <color key="backgroundColor" red="0.93333339689999995" green="0.69019609689999994" blue="0.35686278339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="2NN-8H-DYO"/>
@@ -328,7 +329,7 @@
                                 </constraints>
                             </stackView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pOu-qo-Wi5">
-                                <rect key="frame" x="0.0" y="15" width="414" height="50"/>
+                                <rect key="frame" x="-2" y="15" width="819" height="50"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </navigationBar>
                         </subviews>
@@ -347,7 +348,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OPt-Vf-C60" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBar contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EkT-s8-4L5">
-                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="49"/>
+                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="50"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <items/>
@@ -359,13 +360,13 @@
         <!--第一問-->
         <scene sceneID="Pab-wZ-7fH">
             <objects>
-                <viewController id="hqb-cY-5vX" userLabel="第一問" customClass="Q1check" customModule="レッサーハ_ンタ_と相性診断" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hqb-cY-5vX" userLabel="第一問" customClass="Q1check" customModule="checkwlesser" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IgR-4j-ecS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="JOe-7F-EGK">
-                                <rect key="frame" x="7" y="18" width="400" height="700"/>
+                                <rect key="frame" x="210" y="240" width="400" height="700"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q1.毛並み" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpY-hG-0ub">
                                         <rect key="frame" x="81" y="0.0" width="238" height="50"/>
@@ -437,7 +438,7 @@
         <!--Tttttabbb View Controller-->
         <scene sceneID="BuX-hy-dEh">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Aw2-2N-BrV" customClass="tttttabbbViewController" customModule="レッサーハ_ンタ_と相性診断" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Aw2-2N-BrV" customClass="tttttabbbViewController" customModule="checkwlesser" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4p5-be-UvR">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -457,11 +458,11 @@
         <!--TOP-->
         <scene sceneID="1SY-l5-Liw">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Iit-8S-Cio" customClass="myUINavigationcontroller" customModule="レッサーハ_ンタ_と相性診断" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Iit-8S-Cio" customClass="myUINavigationcontroller" customModule="checkwlesser" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="TOP" image="1x" selectedImage="1x" id="0VO-nS-g9f"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="K2Y-IF-37Z">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="24" width="820" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
